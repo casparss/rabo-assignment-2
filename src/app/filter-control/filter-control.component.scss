@@ -1,0 +1,21 @@
+:host {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 5px 5px 0px;
+
+    input {
+        width: 60%;
+        margin-right: 5px;
+    }
+
+    mat-select {
+        width: 40%;
+    }
+
+    opacity: 0.3;
+
+    &.focused {
+        opacity: 1;
+    }
+}
