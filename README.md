@@ -1,27 +1,20 @@
-# RaboAssigment
+# Rabo assesssment Caspar Sambrook-Smith
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+Hello there :) Here's my assessment submission.
 
-## Development server
+I enjoyed putting my Angular hat back on again.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## I spent one evening on this, had I had more time, I would've:
+- Added proper aria tags in
+- Tidied up the styling, perhaps added some animations
+- Written some tests
+- Perhaps improved the filter functionality some more
+- Done some proper browser testing
+- Used Storybook to build components
 
-## Code scaffolding
+## What I've done:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- I've tried to make components as reusable as possible, for example the file drop is built first as a directive and then consumed by the file drop component
+- Tried to make code readable and straight forward
+- I've used Material UI components for th UI
+- The filters can only be one at a time, so usnused filters will blur. There are three filter patterns on the built-in so you can select either: `<=`, `>=`, and `match`. Should be self-explanitory, but can be used to fulfill the spec asked for
